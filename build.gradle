@@ -17,12 +17,3 @@ dependencies {
 test {
     useJUnit()
 }
-
-dependencies {
-// https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.9.1'
-}
-
-test {
-    useJUnitPlatform()
-}
